@@ -6,7 +6,7 @@ from os import system
 from OSC import *
 
 client = OSCStreamingClient()
-client.connect((192.168.0.15,4559))
+client.connect(("192.168.0.15",4559))
 
 
 client.sendOSC("HI")
