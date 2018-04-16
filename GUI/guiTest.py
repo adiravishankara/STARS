@@ -14,3 +14,4 @@ text.pack(expand=1, fill="both")
 text.focus_set()
 >>>>>>> 971f3c865e22554ee784a008c6609193df18971b
 root.mainloop()
+this is not real
