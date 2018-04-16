@@ -1,20 +1,4 @@
-import signal
 import flicklib
-from time import sleep
-from curses import wrapper
-from os import system
-from OSC import OSCClient, OSCMessage
-
-# client = OSCClient()
-# client.connect((192.168.0.15,4559))
-
-
-# client.send( OSCMessage("HI",[1]))
-
-
-mesSend = upd_client.SimpleUDPClient('10.0.0.1',4559)
-
-
 # flick demo code
 @flicklib.move()
 def move(x, y, z):
@@ -84,17 +68,17 @@ def main(stdscr):
         # flick from left to right and right to left, control which song plays
         if len(flicktxt) > 0:
             if flicktxt == "east-west":
-                mesSend.send_message('gooseA',[1])
+                #mesSend.send_message('gooseA',[1])
                 print(flicktxt + "gooseA")
             elif flicktxt == "west-east":
                 print(flicktxt)
-                mesSend.send_message('gooseS',[1])
+                #mesSend.send_message('gooseS',[1])
             elif flicktxt == "north-south":
                 print(flicktxt)
-                mesSend.send_message('Twinkle',[1])
+                #mesSend.send_message('Twinkle',[1])
             elif flicktxt == "south-north":
                 print(flicktxt)
-                mesSend.send_message('Water',[1])
+                #mesSend.send_message('Water',[1])
             #flicktxt = ''
 
         # airwheel controls volume
