@@ -3,11 +3,11 @@ import flicklib
 from time import sleep
 from curses import wrapper
 from os import system
-from OSC import *
+from OSC import OSCClient, OSCMessage
 
-client = OSCStreamingClient()
+client = OSCClient()
 client.connect(("192.168.0.15",4559))
 
 
-client.sendOSC("HI")
+client.send(OSCMessage("HI"))
 
