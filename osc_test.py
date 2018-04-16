@@ -10,4 +10,6 @@ client.connect(("192.168.0.15",4559))
 
 
 client.send(OSCMessage("HI"))
-
+client.send(OSCMessage("POOP"))
+client.send(OSCMessage("THISISSHIT"))
+client.send(OSCMessage("NEWTOTHIS"))
