@@ -3,8 +3,7 @@ import flicklib
 from time import sleep
 from curses import wrapper
 from os import system
-from osc import osc_message_builder
-from osc import udp_client
+import OSC
 
 mesSend = upd_client.SimpleUDPClient('10.0.0.1',4559)
 
