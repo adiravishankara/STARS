@@ -1,6 +1,6 @@
 import signal
 import flicklib
-from time import sleepp
+from time import sleep
 from curses import wrapper
 from os import system
 from osc import osc_message_builder
