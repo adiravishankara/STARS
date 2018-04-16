@@ -1,4 +1,4 @@
-import flicklib
+from flick import flicklib
 # flick demo code
 
 print("starting flick board")
