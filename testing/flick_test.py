@@ -1,5 +1,7 @@
 import flicklib
 # flick demo code
+
+print("starting flick board")
 @flicklib.move()
 def move(x, y, z):
     global xyztxt, x_range, y_range, z_range
