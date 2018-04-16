@@ -10,3 +10,4 @@ text.bind('<KeyPress>', reportEvent)
 text.pack(expand=1, fill="both")
 text.focus_set()
 root.mainloop()
+this is not real
