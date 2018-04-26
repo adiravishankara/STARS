@@ -71,7 +71,7 @@ def main(stdscr):
 
 
     # continuously check for gestures
-    while(True):
+    while True:
 
         if len(flicktxt) > 0:
             if flicktxt == "east-west":
