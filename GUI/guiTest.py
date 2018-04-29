@@ -1,16 +1,6 @@
-import Tkinter
-root = Tkinter.Tk()
+import tkinter
+from tkinter import *
+from tkinter import ttk
+root = tkinter.Tk()
 root.title("Testing Tkinter")
 
-<<<<<<< HEAD
-print ("This is where things will go")
-=======
-print "This is where things will go"
-text  = Tkinter.Text(root, width=20, height=5, highlightthickness=2)
-	
-text.bind('<KeyPress>', reportEvent)
-	
-text.pack(expand=1, fill="both")
-text.focus_set()
-root.mainloop()
-this is not real

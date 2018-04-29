@@ -71,24 +71,21 @@ def main(stdscr):
 
 
     # continuously check for gestures
-    while(True):
-        # flick from left to right and right to left, control which song plays
+    while True:
+
         if len(flicktxt) > 0:
             if flicktxt == "east-west":
-                #mesSend.send_message('gooseA',[1])
+
                 print(flicktxt + "gooseA")
             elif flicktxt == "west-east":
                 print(flicktxt)
-                #mesSend.send_message('gooseS',[1])
+
             elif flicktxt == "north-south":
                 print(flicktxt)
-                #mesSend.send_message('Twinkle',[1])
+
             elif flicktxt == "south-north":
                 print(flicktxt)
-                #mesSend.send_message('Water',[1])
-            #flicktxt = ''
 
-        # airwheel controls volume
         if len(airwheeltxt) > 0:
             print(airwheeltxt)
             #mesSend.send_message('airwheel',[airwheeltxt])
