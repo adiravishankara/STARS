@@ -3,7 +3,7 @@ import flicklib
 from time import sleep
 from curses import wrapper
 from os import system
-from OSC import OSCClient, OSCMessage
+#from OSC import OSCClient, OSCMessage
 # flick demo code
 
 print("starting flick board")
