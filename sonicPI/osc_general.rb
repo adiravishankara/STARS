@@ -1,10 +1,8 @@
-dir = "C:/Users/arka_/Documents/Python_workSpace/cct_project/audiowav"
-A = load_sample dir, :gooseA
-B = load_sample dir, :gooseS
-C = load_sample dir, :gooseSN
-D = load_sample dir, :lullS
-E = load_sample dir, :Twinkle
-F = load_sample dir, :Water
+dir = "pi/home/Documents/GIT/STARS/music"
+A = load_sample dir, :a
+B = load_sample dir, :b
+C = load_sample dir, :c
+
 
 #onstartup
 #play 90
